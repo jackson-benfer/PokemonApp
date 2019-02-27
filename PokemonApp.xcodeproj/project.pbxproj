@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		02B88B4B2226F4B4005496F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B88B4A2226F4B4005496F4 /* AppDelegate.swift */; };
-		02B88B4D2226F4B4005496F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B88B4C2226F4B4005496F4 /* ViewController.swift */; };
 		02B88B502226F4B4005496F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B88B4E2226F4B4005496F4 /* Main.storyboard */; };
 		02B88B522226F4BD005496F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B88B512226F4BD005496F4 /* Assets.xcassets */; };
 		02B88B552226F4BD005496F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B88B532226F4BD005496F4 /* LaunchScreen.storyboard */; };
 		02B88B602226F4BD005496F4 /* PokemonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B88B5F2226F4BD005496F4 /* PokemonAppTests.swift */; };
 		02B88B6B2226F4BD005496F4 /* PokemonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B88B6A2226F4BD005496F4 /* PokemonAppUITests.swift */; };
+		02B88B7B2226F655005496F4 /* TrainerPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B88B7A2226F655005496F4 /* TrainerPageViewController.swift */; };
+		02B88B7D2226F6A3005496F4 /* TrainerSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B88B7C2226F6A3005496F4 /* TrainerSelectViewController.swift */; };
+		02B88B8022270701005496F4 /* BookPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B88B7E22270701005496F4 /* BookPageViewController.swift */; };
+		02B88B8122270701005496F4 /* BookPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B88B7F22270701005496F4 /* BookPageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		02B88B472226F4B4005496F4 /* PokemonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B88B4A2226F4B4005496F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02B88B4C2226F4B4005496F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02B88B4F2226F4B4005496F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02B88B512226F4BD005496F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02B88B542226F4BD005496F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		02B88B662226F4BD005496F4 /* PokemonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B88B6A2226F4BD005496F4 /* PokemonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAppUITests.swift; sourceTree = "<group>"; };
 		02B88B6C2226F4BD005496F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B88B7A2226F655005496F4 /* TrainerPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerPageViewController.swift; sourceTree = "<group>"; };
+		02B88B7C2226F6A3005496F4 /* TrainerSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerSelectViewController.swift; sourceTree = "<group>"; };
+		02B88B7E22270701005496F4 /* BookPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPageViewController.swift; sourceTree = "<group>"; };
+		02B88B7F22270701005496F4 /* BookPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookPageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,9 @@
 		02B88B492226F4B4005496F4 /* PokemonApp */ = {
 			isa = PBXGroup;
 			children = (
+				02B88B792226F5BE005496F4 /* View */,
+				02B88B782226F5B4005496F4 /* ViewController */,
 				02B88B4A2226F4B4005496F4 /* AppDelegate.swift */,
-				02B88B4C2226F4B4005496F4 /* ViewController.swift */,
-				02B88B4E2226F4B4005496F4 /* Main.storyboard */,
 				02B88B512226F4BD005496F4 /* Assets.xcassets */,
 				02B88B532226F4BD005496F4 /* LaunchScreen.storyboard */,
 				02B88B562226F4BD005496F4 /* Info.plist */,
@@ -123,6 +129,25 @@
 				02B88B6C2226F4BD005496F4 /* Info.plist */,
 			);
 			path = PokemonAppUITests;
+			sourceTree = "<group>";
+		};
+		02B88B782226F5B4005496F4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				02B88B7E22270701005496F4 /* BookPageViewController.swift */,
+				02B88B7A2226F655005496F4 /* TrainerPageViewController.swift */,
+				02B88B7C2226F6A3005496F4 /* TrainerSelectViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		02B88B792226F5BE005496F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02B88B4E2226F4B4005496F4 /* Main.storyboard */,
+				02B88B7F22270701005496F4 /* BookPageViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +256,7 @@
 			files = (
 				02B88B552226F4BD005496F4 /* LaunchScreen.storyboard in Resources */,
 				02B88B522226F4BD005496F4 /* Assets.xcassets in Resources */,
+				02B88B8122270701005496F4 /* BookPageViewController.xib in Resources */,
 				02B88B502226F4B4005496F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02B88B4D2226F4B4005496F4 /* ViewController.swift in Sources */,
+				02B88B7D2226F6A3005496F4 /* TrainerSelectViewController.swift in Sources */,
+				02B88B7B2226F655005496F4 /* TrainerPageViewController.swift in Sources */,
+				02B88B8022270701005496F4 /* BookPageViewController.swift in Sources */,
 				02B88B4B2226F4B4005496F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
